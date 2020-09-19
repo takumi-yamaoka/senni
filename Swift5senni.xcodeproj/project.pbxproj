@@ -13,6 +13,7 @@
 		D35E2B4824D2978400221D15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35E2B4624D2978400221D15 /* Main.storyboard */; };
 		D35E2B4A24D2978600221D15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35E2B4924D2978600221D15 /* Assets.xcassets */; };
 		D35E2B4D24D2978600221D15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35E2B4B24D2978600221D15 /* LaunchScreen.storyboard */; };
+		D35E2B5524D2983F00221D15 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35E2B5424D2983F00221D15 /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D35E2B4924D2978600221D15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D35E2B4C24D2978600221D15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D35E2B4E24D2978600221D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D35E2B5424D2983F00221D15 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				D35E2B4024D2978400221D15 /* AppDelegate.swift */,
 				D35E2B4224D2978400221D15 /* SceneDelegate.swift */,
 				D35E2B4424D2978400221D15 /* ViewController.swift */,
+				D35E2B5424D2983F00221D15 /* NextViewController.swift */,
 				D35E2B4624D2978400221D15 /* Main.storyboard */,
 				D35E2B4924D2978600221D15 /* Assets.xcassets */,
 				D35E2B4B24D2978600221D15 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D35E2B4524D2978400221D15 /* ViewController.swift in Sources */,
+				D35E2B5524D2983F00221D15 /* NextViewController.swift in Sources */,
 				D35E2B4124D2978400221D15 /* AppDelegate.swift in Sources */,
 				D35E2B4324D2978400221D15 /* SceneDelegate.swift in Sources */,
 			);
@@ -294,7 +298,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.takumi.yam.Swift5senni;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.takumi.yam.Swift5senni;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
